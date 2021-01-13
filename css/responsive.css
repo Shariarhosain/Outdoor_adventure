@@ -1,0 +1,104 @@
+@media (max-width: 575.98px) { 
+    .banner{
+        background-position: left;
+    }
+    
+    .quta i {
+    font-size: 70px;
+   
+}
+    h2{
+        font-size: 30px;
+    }
+    .banner_contant p {
+    font-size: 15px;
+}
+   .color_a a {
+       font-size: 8px;
+    } 
+    
+    p{
+        font-size: 15px;
+    }
+    
+}
+
+
+
+@media (max-width: 767.98px) { 
+   .explore_contant {
+    text-align: center;
+}
+.tours_contant {
+    text-align: center;
+    padding-bottom: 40px;
+}
+    
+    
+    .explore_contant h2 {
+
+    font-size: 32px;
+}
+    .navbar-light .navbar-brand {
+    padding: 0 53px;
+ 
+}
+}  
+
+
+@media (max-width: 991.98px) { 
+
+    .action{
+        border: 0px;
+    }
+    
+    .action:hover{
+       color: #d8223cf0;
+        border: 0;
+          background: transparent;
+    }
+    .nn:hover{
+        color: #d8223cf0;
+    }
+    .navbar-collapse {
+    background: rgb(0 0 0 / 94%);
+    
+}
+    .navbar .navbar-nav .nav-item .nav-link{
+        display: flex;
+        justify-content: center;
+    }
+     
+}
+
+
+@media (max-width: 1199.98px) { 
+
+    
+
+}
+
+
+
+
+@media (max-width: 1399.98px) { 
+
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
