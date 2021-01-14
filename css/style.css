@@ -60,7 +60,6 @@ p{
 
 
 
-
 /*---js hover effect---*/
 
 .boxes {
@@ -166,6 +165,26 @@ p{
 .navbar-brand{
     color: white !important;
 }
+.action{
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+     transition: all linear .3s;
+}
+.nn{
+     color: white;
+}
+.nn:hover{
+     color: white;
+}
+  .action:hover{
+       
+    background: #d8223cf0;
+     border: 2px solid  #d8223cf0;
+    transition: all linear .3s;
+}
 
 
 .navbar-brand span{
@@ -206,6 +225,9 @@ p{
 .navbar-brand strong:hover {
   background-position: 0 100%;
 }
+.modal-backdrop {
+    z-index: 0;
+}
 
 
 /*---banner css start---*/
@@ -216,30 +238,13 @@ p{
     background-position:center;
 
 }
-.action{
-    display: flex;
-    justify-content: center;
-    color: white;
-    border-radius: 20px;
-    border: 2px solid white;
-     transition: all linear .3s;
-}
-.nn{
-     color: white;
-}
-.nn:hover{
-     color: white;
-}
-  .action:hover{
-       
-    background: #d8223cf0;
-     border: 2px solid  #d8223cf0;
-    transition: all linear .3s;
-}
 
-
+.btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
 .banner_overlay{
-    background-color: rgba(0,0,0,.5);
+/*    background-color: rgba(0,0,0,.5);*/
     padding: 250px 0;
     width: 100%;
     color: white;
@@ -399,7 +404,7 @@ p{
 }
 .color_a a{
         color: white;
-        background: #d8223cf0;
+         background: #d8223cf0;
         padding: 10px 29px;
         border-radius: 25px;
         letter-spacing: 2px;
@@ -407,10 +412,41 @@ p{
         font-weight: 700;
      transition: all linear .4s;
 }
+.color_a a{
+    
+    position: relative;
+}
+.color_a a:hover i{
+    opacity: 1;
+   right: 5px;
+     
+}
+.color_a a i{
+    position: absolute;
+    left: auto;
+    right: 25px;
+    top: 50%;
+    opacity: 0;
+    width: auto;
+    height: auto;
+    font-size: inherit!important;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+    -webkit-transform: translate(0,-50%); 
+    -ms-transform: translate(0,-50%);
+    
+     transform: translate(0,-50%); 
+
+}
 .color_a a:hover{
-    background: transparent;
-    color: #d8223cf0 ;
-    transition: all linear .4s;
+padding-right: 45px;
+   
+    
+}
+.he a:hover{
+padding-left: 45px;
+   
+    
 }
 .tours_contant span{
     display: inline-block;
